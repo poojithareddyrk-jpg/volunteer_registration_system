@@ -1,7 +1,5 @@
 # NayePankh Volunteer Registration System 
 
-## https://github.com/poojithareddyrk-jpg/volunteer_registration_system ##
-
 ## Project Overview
 
 The NayePankh Volunteer Registration System is a Full Stack web application developed using Python Flask. The system helps NGOs and organizations manage volunteer registrations efficiently through a simple and user-friendly interface.
@@ -26,15 +24,11 @@ The NayePankh Volunteer Registration System is a Full Stack web application deve
 
 ## Project Structure
 
-VOLUNTEER_REGISTRATION_SYSTEM
-│
-├── app.py
-├── volunteers.csv
-│
-└── templates
-    ├── index.html
-    └── volunteers.html
-
+- app.py → Main Flask application
+- volunteers.csv → Stores volunteer data
+- templates/index.html → Volunteer Registration Form
+- templates/volunteers.html → Volunteer Dashboard
+  
 ## How to Run the Project
 
 1. Install Flask
